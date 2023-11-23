@@ -1,0 +1,21 @@
+POST http://127.0.0.1:5000/book
+Content-Type: application/json
+
+{
+  "text": "leihou",
+  "img": "1.png"
+}
+
+
+###
+
+
+POST http://127.0.0.1:5000/book/1
+Content-Type: application/x-www-form-urlencoded
+
+text = '雷猴' &
+img = '1.png'
+
+###
+http://127.0.0.1:5000/book/1
+
