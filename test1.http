@@ -1,0 +1,17 @@
+GET http://127.0.0.1:5000/
+Accept: application/json
+
+###
+
+###
+POST http://127.0.0.1:5000/fileUpload/
+Content-Type: application/json
+
+
+{
+  "text": "leihou",
+  "img": "1.png"
+}
+
+
+
